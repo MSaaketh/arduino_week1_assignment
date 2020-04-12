@@ -57,7 +57,17 @@ void loop()
     digitalWrite(s2y,HIGH);
     digitalWrite(s3y,HIGH);
     digitalWrite(s4y,HIGH);
-    delay(d3);
+    delay(d1);
+    digitalWrite(s1y,LOW);
+    digitalWrite(s2y,LOW);
+    digitalWrite(s3y,LOW);
+    digitalWrite(s4y,LOW);
+    delay(d1);
+    digitalWrite(s1y,HIGH);
+    digitalWrite(s2y,HIGH);
+    digitalWrite(s3y,HIGH);
+    digitalWrite(s4y,HIGH);
+    delay(d1);
     return;
   }
   if(time_slot==2||time_slot==4)
